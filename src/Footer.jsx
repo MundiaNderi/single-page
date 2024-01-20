@@ -12,8 +12,8 @@ export default function Footer(){
                 <hr className='mb-20 mx-4 md:mb-24 md:mx-40 mt-20' />
             </div>
             <div className='flex flex-col md:flex-row md:mb-24 items-center md:mx-40 justify-between' >
-                <h2 className="text-4xl font-bold leading-8 tracking-tighter">serahnderi</h2>
-                <div className='flex flex-row gap-8 items-center sm:mt-5 sm:mb-14 ' >
+                <h2 className="text-4xl font-bold leading-8 tracking-tighter mb-5 md:mb-0">serahnderi</h2>
+                <div className='flex flex-row gap-8 items-center sm:mt-5 mb-14 md:mb-0 ' >
                     <a href='https://github.com/MundiaNderi' target="_blank" rel="noopener noreferrer">
                         <img src={Github} alt='github' />
                     </a>

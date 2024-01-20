@@ -10,9 +10,9 @@ export default function Navbar() {
             <div>
                 <h2 className="text-4xl font-bold leading-8 tracking-tighter md:mr-96 ">serahnderi</h2>
             </div>
-                 <div className='flex flex-row gap-8 items-center sm:mt-5 sm:pb-15 ' >
+                 <div className='flex flex-row gap-8 items-center mt-5 md:mt-0  sm:pb-15 ' >
                     <a href='https://github.com/MundiaNderi' target="_blank" rel="noopener noreferrer">
-                        <img src={Github} alt='github' />
+                        <img src={Github} alt='github' className="" />
                     </a>
                      <a href='https://www.frontendmentor.io/profile/MundiaNderi' target="_blank" rel="noopener noreferrer">
                         <img src={FrontendMentor} alt='github' />

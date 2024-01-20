@@ -4,9 +4,9 @@ import '../src/Contact.css';
 export default function Contact() {
   return (
     <>
-    <div className="contactForm flex flex-col md:flex-row mt-14 md:mt-32 justify-center md:justify-normal">
+    <div className="contactForm flex flex-col md:flex-row md:mt-32 justify-center md:justify-normal">
       <div className="md:w-1/2 mx-4 md:mx-40  md:mt-20 ">
-        <h2 className="font-space sm:mt-14 md:text-8xl leading-88 text-center md:text-left text-4xl font-bold leading-40 tracking-tight">Contact</h2>
+        <h2 className="font-space sm:mt-14 md:text-8xl leading-88 text-center md:text-left text-4xl font-bold leading-40 tracking-tight mt-14 md:mt-0">Contact</h2>
         <p className="text-white font-space text-base font-medium leading-7 mt-5 md:mt-8 justify-center items-center md:justify-normal">
             I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
       </div>

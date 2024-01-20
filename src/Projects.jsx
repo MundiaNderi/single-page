@@ -43,7 +43,7 @@ export default function Projects() {
         </a>
       </div>
       <h2 className="font-space mt-10 md:mt-5 font-bold text-xl leading-8">{project.title}</h2>
-      <p className="text-white contact font-space font-medium text-base leading-7">{project.skills}</p>
+      <p className="text-white contact font-space font-medium text-base leading-7 mb-12 md:mb-0">{project.skills}</p>
     </div>
   ))}
 </div>
