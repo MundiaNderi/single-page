@@ -2,7 +2,7 @@ import '../src/Skills.css';
 
 export default function Skills() {
     return (
-        <div className="skills md:mx-44 flex flex-col mt-16 mb-20 md:mb-32">
+        <div className="skills md:mx-44 mx-4 flex flex-col mt-16 mb-20 md:mb-32">
             <hr className='' />
             <div className="experience flex flex-col gap-6 md:mt-16 md:flex-row justify-between ">
                 <div className='md:mr-8'>
