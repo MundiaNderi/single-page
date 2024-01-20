@@ -16,9 +16,9 @@ export default function Hero() {
                 Based in  Kenya, I’m a front-end developer <br />
                 passionate about building accessible web apps <br /> that users love.</p>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center md:items-start justify-center">
             <a href="/contact" className="hover:text-greenUnderlined contact mt-6 font-space text-base font-bold leading-6 tracking-wider md:ml-40 md:text-left">CONTACT ME</a>
-             <hr className='contacthr border-none w-28 mt-2 md:ml-40 mx-auto sm:mx-32 '/>
+             <hr className='contacthr border-none w-28 mt-2 md:ml-40'/>
         </div>
          </div>
          <div className="image mx-3 sm:mt-12 md:mr-40">
