@@ -1,7 +1,6 @@
 import "../src/Hero.css";
 import Serah from '../src/assets/images/Serah NN.jpeg';
 import Rings from '../src/assets/images/pattern-rings.svg';
-import { Link } from 'react-router-dom';
 
 
 export default function Hero() {
@@ -17,9 +16,9 @@ export default function Hero() {
                 Based in  Kenya, I’m a front-end developer <br />
                 passionate about building accessible web apps <br /> that users love.</p>
         </div>
-        <Link to="/contact" 
+        <a href="/contact" 
         className="hover:text-greenUnderlined text-center mx-32 contact mt-6 font-space text-base font-bold leading-6 tracking-wider md:ml-40 md:text-left"> CONTACT ME
-        </Link>
+        </a>
           <hr className='contacthr border-none w-28 mt-2 md:ml-40 mx-auto sm:mx-32 '/>
          </div>
          <div className="image mx-3 sm:mt-12 md:mr-40">
