@@ -8,8 +8,8 @@ export default function Footer(){
      return (
         <>
         <div className="footer flex flex-col ">
-            <div>
-                <hr className='mb-20 md:mb-24 md:mx-40 mt-20 md:24' />
+            <div className='' >
+                <hr className='mb-20 mx-4 md:mb-24 md:mx-40 mt-20' />
             </div>
             <div className='flex flex-col md:flex-row md:mb-24 items-center md:mx-40 justify-between' >
                 <h2 className="text-4xl font-bold leading-8 tracking-tighter">serahnderi</h2>
