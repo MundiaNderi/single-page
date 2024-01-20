@@ -43,7 +43,7 @@ export default [
         id: 6,
         title: 'Insure',
         skills: "HTML5 Tailwind CSS",
-        image: '../src/assets/images/insure.jpg',
+        image: 'public/insure.jpg',
         url: "https://fluffy-madeleine-8c60b3.netlify.app",
         github: "https://github.com/MundiaNderi/Blog-preview-card" 
     }
