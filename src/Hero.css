@@ -9,3 +9,13 @@
 .contact {
     color: white;
 }
+
+.contacthr {
+    height: 2px;
+    background: #4EE1A0;
+}
+
+.hero a {
+    margin: 0;
+    padding: 0;
+}

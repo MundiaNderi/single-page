@@ -1,38 +1,37 @@
-import React from 'react';
 import '../src/Contact.css';
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 
 export default function Contact() {
   return (
     <>
-    <div className="contactForm flex flex-col md:flex-row mt-14 md:mt-32 justify-center md:justify-normal border border-red-500">
+    <div className="contactForm flex flex-col md:flex-row mt-14 md:mt-32 justify-center md:justify-normal">
       <div className="md:w-1/2 mx-4 md:mx-40  md:mt-20 ">
-        <h2 className="font-space md:text-8xl leading-88 text-center md:text-left text-4xl font-bold leading-40 tracking-tight border border-red-500 ">Contact</h2>
+        <h2 className="font-space md:text-8xl leading-88 text-center md:text-left text-4xl font-bold leading-40 tracking-tight">Contact</h2>
         <p className="text-white font-space text-base font-medium leading-7 mt-5 md:mt-8 justify-center items-center md:justify-normal">
             I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
       </div>
-      <div className="flex flex-col mx-4 md:w-1/2 border border-red-500 mt-12  md:mt-20">
-        <form className=''>
+      <div className="flex flex-col mx-4 md:w-1/2  mt-12 md:mx-40  md:mt-20">
+        <form action='https://formspree.io/f/mbjndrdo' method='POST'
+        className=''>
           <div className="mb-8">
-            <input type="text" placeholder="NAME" className="text-base font-medium leading-6 tracking-tight font-space opacity-50 h-11 w-80 " />
-            <hr className='md:mr-32 ' />
+            <input type="text" placeholder="NAME" name='name' className="text-base text-white font-medium leading-6 tracking-tight font-space opacity-50 h-11 w-full " />
+            <hr className='md:mr-32 w-full ' />
           </div>
           <div className="mb-8">
-            <input type="text" placeholder="EMAIL" className="text-base font-medium leading-6 tracking-tight font-space opacity-50 h-11 w-80" />
-            <hr className='md:mr-32'/>
+            <input type="text" placeholder="EMAIL" name='email' className="text-base font-medium  text-white leading-6 tracking-tight font-space opacity-50 h-11 w-full" />
+            <hr className='md:mr-32 w-full'/>
           </div>
           <div className="mb-8">
-            <textarea type="text" placeholder="MESSAGE" className="text-base font-medium leading-6 tracking-tight font-space opacity-50 w-80 " />
-            <hr className='md:mr-32' />
+            <textarea type="text" placeholder="MESSAGE" name='message' className="text-base text-white font-medium leading-6 tracking-tight font-space opacity-50 w-full " />
+            <hr className='md:mr-32 w-full' />
           </div>
-          <div className="mb-8 message justify-end items-end flex">
-            <a href="/" className="border border-red-500  md:mb-3">SEND MESSAGE</a>
+          <div className="mb-8 message flex flex-col items-end justify-end">
+            <button type='submit' className="font-space contact-button md:mb-3 font-semibold leading-26 tracking-wider text-white text-16">SEND MESSAGE</button>
+            <hr className='w-32 mt-2 border-none' />
           </div>
         </form>
       </div>
     </div>
-    <Footer/>
     </>
   );
 }

@@ -11,20 +11,29 @@ form {
 
 form input {
     background-color: #242424;
+    color: white;
 }
 
 form textarea {
-    width: 445px;
     height: 107px;
     background-color: #242424;
+    color: white;
 }
 .message a {
     color: white;
     padding: 0;
 }
 
-.form hr {
-    width: 144px;
+.message hr {
     height: 2px;
     background: #4EE1A0;
+}
+
+.form hr {
+    height: 2px;
+    background: #4EE1A0;
+}
+
+.contact-button {
+    color: #fff;
 }
