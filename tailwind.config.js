@@ -15,6 +15,7 @@ export default {
        colors: {
         black: 'hsla(0, 0%, 8%, 1)',
         green: 'hsla(154, 71%, 59%, 1)',
+        greenUnderlined: 'hsla(153, 71%, 59%, 1)',
         darkGrey: 'hsla(0, 0%, 14%, 1)',
         grey: 'hsla(0, 0%, 85%, 1)',
         white: 'hsla(0, 0%, 100%, 1)'

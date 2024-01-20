@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import Skills from './Skills'
+import Projects from './Projects'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     <Navbar />
     <Hero />
     <Skills />
+    <Projects />
+    <Contact />
     </>
   )
 }

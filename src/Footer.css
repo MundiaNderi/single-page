@@ -1,0 +1,9 @@
+.footer {
+    background-color: #242424;
+}
+
+.footer hr {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+}
