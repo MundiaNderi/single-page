@@ -1,6 +1,5 @@
 import projectsData from './data';
 import '/src/Projects.css';
-import { Link } from 'react-router-dom';
 
 
 export default function Projects() {
