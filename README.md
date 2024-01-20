@@ -18,4 +18,4 @@ This is my deployed SE Portfolio
 ## Deployed your project
 
 - [Netlify](https://jocular-churros-6d388d.netlify.app)
-- [Github](https://github.com/MundiaNderi/Blog-preview-card)
+- [Github](https://github.com/MundiaNderi/single-page)
