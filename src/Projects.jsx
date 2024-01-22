@@ -5,11 +5,11 @@ import '/src/Projects.css';
 export default function Projects() {
   return (
     <>
-      <div className="projects mx-4 md:mx-44 md:mb-20 mb-10 flex flex-col md:flex-row items-center justify-between">
+      <div className="projects mx-4 md:mx-44 md:mb-20 mb-10 flex flex-col md:flex-row items-center justify-between" >
         <h2 className="font-bold md:text-7xl leading-88 md:tracking-wide text-2xl leading-10 tracking-tight">
           Projects
         </h2>
-        <a href='/contact' className="text-white contact font-space md:tracking-wider md:mt-16  font-bold text-base leading-7 tracking-wide">
+        <a href='#contact' className="text-white contact font-space md:tracking-wider md:mt-16  font-bold text-base leading-7 tracking-wide">
           CONTACT ME
           <hr className='projectshr mt-2' />
         </a>
