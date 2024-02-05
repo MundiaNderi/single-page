@@ -14,20 +14,20 @@ export default function Projects() {
           <hr className='projectshr mt-2' />
         </a>
       </div>
-      <div className="card grid md:grid-cols-3 gap-4 md:gap-8 mx-4 md:mx-44">
+      <div className="card grid md:grid-cols-3 gap-4 md:gap-8 mx-4 md:mb-32 md:mx-44">
   {projectsData.map((project) => (
-    <div key={project.id} className="flex-shrink-0 relative">
+    <div key={project.id} className="flex-shrink-0 relative  hover:opacity-55 hover:bg-black">
       <img
         src={project.image} 
         alt={`Project: ${project.title}`}
-        className="w-full object-cover hover:bg-black hover:opacity-75 "
+        className="w-full object-cover "
       />
-      <div className="absolute project inset-0 flex flex-col items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
+      <div className="absolute project inset-0 flex flex-col  items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
         <a
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white py-2 px-4 mx-2 mt-16"
+          className="text-white py-2 px-4 mx-2 md:mx-50 mt-16"
         >
           View Project
            <hr className='projectshr mt-1' />
