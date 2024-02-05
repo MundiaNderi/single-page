@@ -50,7 +50,7 @@ export default function Projects() {
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white font-space-grotesk font-bold text-xl leading-7 tracking-wider link mr-8">
+          className="projects-mobile  font-space-grotesk font-bold text-xl leading-7 tracking-wider link mr-8 !important">
           View Project
            <hr className='projectshr mt-1 mb-10' />
         </a>
@@ -58,7 +58,7 @@ export default function Projects() {
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="link font-space-grotesk font-bold text-xl leading-7 tracking-wider"
+          className="projects-mobile  font-space-grotesk font-bold text-xl leading-7 tracking-wider !important"
         >
           View Code
            <hr className='projectshr mt-1 mb-10' />
