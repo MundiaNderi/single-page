@@ -16,13 +16,13 @@ export default function Projects() {
       </div>
       <div className="card grid md:grid-cols-3 gap-4 md:gap-8 mx-4 md:mb-32 md:mx-44">
   {projectsData.map((project) => (
-    <div key={project.id} className="flex-shrink-0 relative  hover:opacity-55 hover:bg-black">
+    <div key={project.id} className="flex-shrink-0 relative  mb:hover:opacity-75 mb:hover:bg-black">
       <img
         src={project.image} 
         alt={`Project: ${project.title}`}
         className="w-full object-cover "
       />
-      <div className="absolute project inset-0 flex flex-col  items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
+      <div className="hidden md:flex absolute project inset-0 flex-col  items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
         <a
           href={project.url}
           target="_blank"
@@ -42,8 +42,29 @@ export default function Projects() {
            <hr className='projectshr mt-1' />
         </a>
       </div>
-      <h2 className="font-space mt-10 md:mt-5 font-bold text-xl leading-8">{project.title}</h2>
-      <p className="text-white contact font-space font-medium text-base leading-7 mb-12 md:mb-0">{project.skills}</p>
+      <h2 className="font-space mt-5 md:mt-5 font-bold text-xl leading-8">{project.title}</h2>
+      <p className="text-white contact font-space font-medium text-base leading-7 mb-5 md:mb-0">{project.skills}</p>
+      {/*Mobile Buttons */}
+      <div className='md:hidden flex flex-row items-cente mt-5 text-white'>
+        <a
+          href={project.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white font-space-grotesk font-bold text-xl leading-7 tracking-wider link mr-8">
+          View Project
+           <hr className='projectshr mt-1 mb-10' />
+        </a>
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link font-space-grotesk font-bold text-xl leading-7 tracking-wider"
+        >
+          View Code
+           <hr className='projectshr mt-1 mb-10' />
+        </a> 
+
+      </div>
     </div>
   ))}
 </div>

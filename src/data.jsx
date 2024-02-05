@@ -21,7 +21,7 @@ export default [
         skills: "HTML5, Tailwind CSS, Chart.js",
         image: '/expenses.jpg',
         url: "https://chimerical-cendol-ec3d92.netlify.app/",
-        github: "https://github.com/MundiaNderi/blogr" 
+        github: "https://github.com/MundiaNderi/expenses" 
     },
     {
         id: 4,
