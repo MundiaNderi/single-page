@@ -41,10 +41,10 @@ export default [
     },
     {
         id: 6,
-        title: 'Blog Preview Card',
+        title: 'Notifications Page',
         skills: "React, Tailwind CSS",
-        image: '/Blog-desktop-preview.jpg',
-        url: "https://fluffy-madeleine-8c60b3.netlify.app",
-        github: "https://vermillion-blancmange-7e0da8.netlify.app" 
+        image: 'dist/Notifications Desktop.jpg',
+        url: "https://magical-syrniki-9330ed.netlify.app",
+        github: "https://github.com/MundiaNderi/Notifications-page" 
     }
 ]
