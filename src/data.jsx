@@ -43,7 +43,7 @@ export default [
         id: 6,
         title: 'Notifications Page',
         skills: "React, Tailwind CSS",
-        image: '/dist/Notifications-Desktop.jpg',
+        image: '/Notifications-Desktop.jpg',
         url: "https://magical-syrniki-9330ed.netlify.app",
         github: "https://github.com/MundiaNderi/Notifications-page" 
     }
