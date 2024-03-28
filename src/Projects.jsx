@@ -20,7 +20,7 @@ export default function Projects() {
       <img
         src={project.image} 
         alt={`Project: ${project.title}`}
-        className="w-full object-cover "
+        className="w-full h-56 object-cover "
       />
       <div className="hidden md:flex absolute project inset-0 flex-col  items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
         <a

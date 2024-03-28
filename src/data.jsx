@@ -17,11 +17,11 @@ export default [
     },
     {
         id: 3,
-        title: 'Expenses Chart',
-        skills: "HTML5, Tailwind CSS, Chart.js",
-        image: '/expenses.jpg',
-        url: "https://chimerical-cendol-ec3d92.netlify.app/",
-        github: "https://github.com/MundiaNderi/expenses" 
+        title: 'Full Stack Food Delievery App',
+        skills: "MongoDB, Express, React, Node. js and Stripe",
+        image: '/Food Delivery.png',
+        url: "https://tomato-rust.vercel.app/#explore-menu",
+        github: "https://github.com/MundiaNderi/Tomato" 
     },
     {
         id: 4,
