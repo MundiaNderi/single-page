@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
