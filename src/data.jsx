@@ -9,11 +9,12 @@ export default [
     },
     {
         id: 2,
-        title: 'BLOGR',
-        skills: "HTML5, Tailwind CSS",
-        image: '/Blogr.jpg',
-        url: "https://wonderful-gumption-54e6de.netlify.app",
-        github: "https://github.com/MundiaNderi/blogr"
+        title: 'Full Stack Audiophile App',
+        skills: "MongoDB, Express, React, Node. js and Stripe",
+        image: '/audiophile-preview.jpg',
+        url: "https://audiophile-1.vercel.app",
+        github: "https://github.com/MundiaNderi/audiophile"
+
     },
     {
         id: 3,
@@ -21,7 +22,7 @@ export default [
         skills: "MongoDB, Express, React, Node. js and Stripe",
         image: '/Food Delivery.png',
         url: "https://tomato-rust.vercel.app/#explore-menu",
-        github: "https://github.com/MundiaNderi/Tomato" 
+        github: "https://github.com/MundiaNderi/Tomato"
     },
     {
         id: 4,
@@ -29,7 +30,7 @@ export default [
         skills: "HTML5, Vanilla, CSS, Github API",
         image: '/Github.jpg',
         url: "https://graceful-ganache-2973c0.netlify.app/",
-        github: "https://github.com/MundiaNderi/GitHub-search" 
+        github: "https://github.com/MundiaNderi/GitHub-search"
     },
     {
         id: 5,
@@ -37,7 +38,7 @@ export default [
         skills: "Typescript, Tailwind CSS",
         image: '/product-feedback-Preview.jpg',
         url: "https://product-feedback-app-navy.vercel.app",
-        github: "https://github.com/MundiaNderi/Product-feedback-app"  
+        github: "https://github.com/MundiaNderi/Product-feedback-app"
     },
     {
         id: 6,
@@ -45,6 +46,16 @@ export default [
         skills: "React, Tailwind CSS",
         image: '/Notifications-Desktop.jpg',
         url: "https://magical-syrniki-9330ed.netlify.app",
-        github: "https://github.com/MundiaNderi/Notifications-page" 
+        github: "https://github.com/MundiaNderi/Notifications-page"
+    },
+    {
+
+
+        id: 7,
+        title: 'BLOGR',
+        skills: "HTML5, Tailwind CSS",
+        image: '/Blogr.jpg',
+        url: "https://wonderful-gumption-54e6de.netlify.app",
+        github: "https://github.com/MundiaNderi/blogr"
     }
 ]
