@@ -42,20 +42,10 @@ export default [
     },
     {
         id: 6,
-        title: 'Notifications Page',
-        skills: "React, Tailwind CSS",
-        image: '/Notifications-Desktop.jpg',
-        url: "https://magical-syrniki-9330ed.netlify.app",
-        github: "https://github.com/MundiaNderi/Notifications-page"
+        title: 'Docs Hub: API Documentation',
+        skills: "React, Tailwind CSS, Rick and Morty API",
+        image: '/Docs.png',
+        url: "https://velvety-gelato-4b98ee.netlify.app/",
+        github: "https://github.com/MundiaNderi/api-documentation"
     },
-    {
-
-
-        id: 7,
-        title: 'BLOGR',
-        skills: "HTML5, Tailwind CSS",
-        image: '/Blogr.jpg',
-        url: "https://wonderful-gumption-54e6de.netlify.app",
-        github: "https://github.com/MundiaNderi/blogr"
-    }
 ]
