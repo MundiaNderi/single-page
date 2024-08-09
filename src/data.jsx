@@ -43,7 +43,7 @@ export default [
     {
         id: 6,
         title: 'Docs Hub: API Documentation',
-        skills: "React, Tailwind CSS, Rick and Morty API",
+        skills: "React, Tailwind CSS, Rick and Morty API and Unsplash API",
         image: '/Docs.png',
         url: "https://velvety-gelato-4b98ee.netlify.app/",
         github: "https://github.com/MundiaNderi/api-documentation"
