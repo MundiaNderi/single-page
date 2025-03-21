@@ -10,7 +10,7 @@
 }
 
 .project a {
-    color: #000;
+    color: white;
     font-family: "Space Grotesk";
     font-size: 16px;
     font-style: normal;
@@ -29,5 +29,17 @@ link {
 }
 
 .projects-mobile {
+    color: white;
+}
+
+.project-container:hover .project-image {
+    opacity: 0.25;
+}
+
+.project-container:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-link {
     color: white;
 }

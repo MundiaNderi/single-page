@@ -16,18 +16,18 @@ export default function Projects() {
       </div>
       <div className="card grid md:grid-cols-3 gap-4 md:gap-8 mx-4 md:mb-32 md:mx-44">
   {projectsData.map((project) => (
-    <div key={project.id} className="flex-shrink-0 relative  mb:hover:opacity-75 mb:hover:bg-black">
+    <div key={project.id} className="flex-shrink-0 relative mb:hover:bg-black hover:opacity-100 project-container">
       <img
         src={project.image} 
         alt={`Project: ${project.title}`}
-        className="w-full h-56 object-cover "
+        className="w-full  project-image h-56 object-cover "
       />
       <div className="hidden md:flex absolute project inset-0 flex-col  items-center mx-auto opacity-0 hover:opacity-100 transition-opacity">
         <a
           href={project.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white py-2 px-4 mx-2 md:mx-50 mt-16"
+          className=" py-2 px-4 mx-2 md:mx-50 mt-16"
         >
           View Project
            <hr className='projectshr mt-1' />
@@ -36,7 +36,7 @@ export default function Projects() {
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className=" text-white py-2 px-4 mx-2 mt-3"
+          className="py-2 px-4 mx-2 mt-3"
         >
           View Code
            <hr className='projectshr mt-1' />
